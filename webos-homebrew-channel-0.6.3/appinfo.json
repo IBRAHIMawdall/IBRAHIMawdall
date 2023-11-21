@@ -1,0 +1,17 @@
+{
+    "id": "org.webosbrew.hbchannel",
+    "version": "0.6.3",
+    "vendor": "webosbrew.org",
+    "title": "Homebrew Channel",
+    "icon": "assets/icon80.png",
+    "largeIcon": "assets/icon130.png",
+    "splashBackground": "assets/splash.png",
+    "main": "index.html",
+    "iconColor": "#cf0652",
+    "type": "web",
+    "appDescription": "webOS Homebrew installer",
+    "previewMetadata": {
+        "targetEndpoint": "luna://org.webosbrew.hbchannel.service/autostart",
+        "sourceEndpoint": "@PREVIEW.ENDPOINT.SOURCE_LOCAL_STOREAPP"
+    }
+}
